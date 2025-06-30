@@ -1,0 +1,34 @@
+body{
+    background-image: url("weather-bg.jpeg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 40% 60% ;
+
+}
+#get-weather{
+    width: 100px;
+    height: 20px;
+    border-radius: 10px;
+    border: none;
+    position: fixed;
+    top: 220px;
+    font-size: 10px;
+    font-family: serif;
+    color:green;
+   
+}
+#weather-frame{
+    height: 93vh;
+    width: 95vw;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+#display-weather{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-size: 2em;
+    color: white;
+}
